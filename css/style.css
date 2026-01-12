@@ -5,3 +5,39 @@
   font-family: 'Work Sans', sans-serif;
   font-optical-sizing: auto;
 }
+
+/* Header Section Style */
+
+/* Navbar Styles */
+.backgound-color {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 600px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links li,
+a {
+  text-decoration: none;
+  list-style: none;
+  margin-right: 20px;
+  color: rgba(66, 66, 66, 1);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.brand-name {
+  color: rgba(19, 19, 19, 1);
+  font-size: 45px;
+  font-weight: 700;
+}
