@@ -123,7 +123,7 @@ a {
 
 /* Facts Section Styles */
 .facts {
-  margin-top: 198px;
+  margin-top: 90px;
 }
 
 .facts-container {
@@ -158,6 +158,31 @@ a {
   font-size: 18px;
   font-weight: 600;
   color: #727272;
+}
+
+/* Sponsor Styles */
+.sponsor {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.sponsor-content {
+  text-align: center;
+}
+
+.sponsor-content h3 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #131313;
+  margin-bottom: 24px;
+}
+
+.sponsor-img {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(100%);
 }
 
 /* Responsive Media Query Style */
@@ -214,5 +239,10 @@ a {
 
   .facts-content {
     text-align: center;
+  }
+
+  /* Sponsor Styles */
+  .sponsor-img {
+    flex-direction: column;
   }
 }
