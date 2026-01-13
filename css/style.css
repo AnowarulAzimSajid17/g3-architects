@@ -15,9 +15,8 @@
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  gap: 600px;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -40,4 +39,66 @@ a {
   color: rgba(19, 19, 19, 1);
   font-size: 45px;
   font-weight: 700;
+}
+
+/* Banner Styles */
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.banner-content {
+  max-width: 862px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner-content .banner-title {
+  font-size: 64px;
+  font-weight: 700;
+  color: rgba(19, 19, 19, 1);
+  margin-bottom: 20px;
+  margin-top: 116px;
+}
+
+.description {
+  color: rgba(114, 114, 114, 1);
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.btn-primary {
+  padding: 21px 24px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(255, 144, 14, 1);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 70px;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+/* Responsive Media Query Style */
+@media screen and (max-width: 576px) {
+  /* Navbar Styles */
+  .navbar,
+  .nav-links {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .nav-links li,
+  a {
+    font-size: 16px;
+    margin-right: 12px;
+  }
 }
