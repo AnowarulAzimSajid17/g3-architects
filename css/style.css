@@ -185,6 +185,14 @@ a {
   filter: grayscale(100%);
 }
 
+/* Footer Styles */
+.footer-container {
+  background-color: #fff4e7;
+  padding: 30px;
+  text-align: center;
+  margin: 0 200px 200px;
+}
+
 /* Responsive Media Query Style */
 @media screen and (max-width: 576px) {
   /* Navbar and Banner Styles */
@@ -244,5 +252,13 @@ a {
   /* Sponsor Styles */
   .sponsor-img {
     flex-direction: column;
+  }
+
+  /* Footer Styles */
+  .footer-container {
+    background-color: #fff4e7;
+    padding: 20px 10px 3px;
+    text-align: center;
+    margin: 0 30px 50px;
   }
 }
